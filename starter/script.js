@@ -53,7 +53,7 @@
     
     // to save reminder in local storage
     
-    function saveReminders() {
+    function reminderStorage() {
         localStorage.setItem("timeOfDay", JSON.stringify(timeOfDay));
     }
     
@@ -61,7 +61,7 @@
     // to let user see data in local storage
     
     
-    function displayReminders() {
+    function showReminders() {
        timeOfDay.forEach(function (forNow) {
             $(`#${forNow.id}`).val(forNow.reminder);
         })
@@ -74,8 +74,8 @@
             timeOfDay = storedReminder;
         }
     
-        saveReminders();
-        displayReminders();
+        reminderStorage();
+        showReminders();
     }
     
     // display time a save button and allow a text area to type in reminders 
@@ -135,11 +135,14 @@
     
     $(".saveBtn").on("click", function(event) {
         event.preventDefault();
-        var saveIndex = $(this).siblings(".description").children(".future").attr("id");
-        timeOfDay[saveIndex].reminder = $(this).siblings(".description").children(".future").val();
-        console.log(saveIndex);
-        saveReminders();
-        displayReminders();
+        let reminderIndex = $(this).siblings(".description").children(".future").attr("id");
+        timeOfDay[reminderIndex].reminder = $(this).siblings(".description").children(".future").val();
+        reminderStorage();
+        showReminders();
+
+        
+
+        //$('.container').append('<h3>You just added a task</h3>')
     })
     
     
