@@ -25,9 +25,8 @@ This is a daily planner that allows you add task for every working hour and trac
 
 ## Challenges 
  * Function wasn't going through all the questions in my object
- * Moving from one page to another using only JavaScript 
- * Passing items in an Object to the screen using JSON
- * Hiding and unhiding hidden divs
+ * calling locak storage to keep reminder on screen after refresh
+
  
 ## Screnshot 
 
@@ -38,7 +37,7 @@ This is a daily planner that allows you add task for every working hour and trac
 [Screenshot](./images/127.0.0.1_5500_index.html_%20(1).png)
 
 ## Link to Project
-[ Project link ](https://seuncaleb.github.io/Codequiz/) 
+[ Project link ](https://seuncaleb.github.io/dailyplannerapp/) 
 
  
 
