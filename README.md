@@ -31,7 +31,7 @@ This is a daily planner that allows you add task for every working hour and trac
 ## Screnshot 
 
 ## Link to Project
-[ Repo link ](https://github.com/seuncaleb/Codequiz) 
+[ Repo link ](https://github.com/seuncaleb/dailyplannerapp) 
 
 ## Project Image
 [Screenshot](./images/127.0.0.1_5500_index.html_%20(1).png)
