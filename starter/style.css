@@ -12,7 +12,6 @@ textarea {
   border-left: 1px solid black;
   padding: 10px;
  height: 100%;
- max-width: 100%;
 }
 
 .jumbotron {
@@ -71,3 +70,4 @@ textarea {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
 }
+
